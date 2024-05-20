@@ -121,7 +121,7 @@ export default function App() {
         </div>
       </footer>
       <AnimatedCursor
-        innerSize={8}
+        innerSize={7}
         outerSize={50}
         innerScale={1}
         outerScale={2}
