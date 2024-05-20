@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+
+.bg-gradient-reverse {
+    background: linear-gradient(90deg, #5E11FF 25%, #F87516 100%);
+}
