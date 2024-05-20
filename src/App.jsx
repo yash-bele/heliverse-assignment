@@ -6,14 +6,14 @@ export default function App() {
     <main className="bg-slate-950 text-white font-outfit">
       <main className="mx-auto space-y-28 max-w-full xl:max-w-7xl px-5 xl:px-0 overflow-x-hidden">
         <nav className="flex items-center justify-between pt-7">
-          <img src="/MotionArtEffect-logo.png" alt="MotionArtEffect-logo" />
+          <img src="/MotionArtEffect-logo.png" alt="MotionArtEffect-logo" className="w-1/2 sm:w-auto" />
           <button className="bg-white hover:bg-transparent text-black hover:text-white border-2 border-white duration-200 rounded-md pt-2 pb-2.5 px-7 text-lg hidden sm:block">Purchase Now</button>
         </nav>
 
-        <section className="relative text-center sm:text-start space-y-5 sm:space-y-0">
-          <section className="w-fit top-0 text-lg font-sora space-y-2.5 static sm:absolute mx-auto sm:mx-0">
-            <p className="text-gradient font-semibold w-32">Transform Your Website</p>
-            <p className="font-light text-base w-[8.5rem]">With Motion Art Effect</p>
+        <section className="relative text-center sm:text-start space-y-7 sm:space-y-0">
+          <section className="w-fit top-0 text-xl font-sora space-y-2.5 static sm:absolute mx-auto sm:mx-0">
+            <p className="text-gradient font-semibold w-52 sm:w-36">Transform Your Website</p>
+            <p className="font-light text-base w-52 sm:w-[8.5rem]">With Motion Art Effect</p>
           </section>
           <section className="mx-auto space-y-5 w-full sm:w-1/2">
             <h1 className="font-sora leading-tight font-medium text-4xl sm:text-5xl xl:text-[4rem]">
@@ -53,7 +53,7 @@ export default function App() {
         <section className="font-sora flex flex-col md:flex-row items-center justify-between text-center sm:text-start space-y-5 md:space-y-0">
           <div className="space-y-5 w-full md:w-3/5">
             <h1 className="text-2xl sm:text-[2.5rem] leading-snug">Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</h1>
-            <p className="text-slate-400 font-light leading-relaxed">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
+            <p className="text-slate-400 font-light leading-relaxed pb-2.5">Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
             <button className="bg-gradient-reverse text-xl font-light pt-3 pb-3.5 px-7 rounded-2xl flex items-center space-x-2.5 mx-auto md:mx-0">
               <span>Purchase From Envato</span>
               <GoArrowRight className="text-2xl" />
@@ -113,7 +113,7 @@ export default function App() {
 
       <footer className="bg-gradient py-4 mt-28 text-slate-300 text-[15px]">
         <div className="flex flex-col-reverse sm:flex-row justify-between items-center max-w-full xl:max-w-7xl px-5 xl:px-0 mx-auto">
-          <p>© 2023 Copywrite. All rights reserved by QodeMatrix</p>
+          <p className="text-center">© 2023 Copywrite. All rights reserved by QodeMatrix</p>
           <div className="space-x-5 mb-5 sm:mb-0">
             <a href="">Documentation</a>
             <a href="">Support</a>
