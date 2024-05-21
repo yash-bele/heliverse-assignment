@@ -17,7 +17,7 @@ export default function App() {
               <p className="font-light text-base w-52 sm:w-[8.5rem]">With Motion Art Effect</p>
             </section>
             <section className="mx-auto space-y-5 w-full sm:w-1/2">
-              <h1 className="font-sora leading-tight font-medium text-4xl sm:text-5xl xl:text-[4rem]">
+              <h1 className="font-sora !leading-tight font-medium text-4xl sm:text-5xl xl:text-[4rem]">
                 Attract Your Visitors Attention With Colorful <span className="text-gradient">Motion Art Effect</span>
               </h1>
               <p className="text-slate-400 text-lg font-light w-full xl:w-[90%]">Unleash the power of creativity with Motion Art for Elementor - your ultimate solution for seamlessly integrating captivating animations into your website.</p>
